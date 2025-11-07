@@ -15,8 +15,7 @@ legal-qa-bot/
 ├─ retrieval.py
 ├─ requirements.txt
 ├─ data/
-│  ├─ legal_corpus.json
-│  └─ case_summaries.json
+│  ├─ legal_dataset.json
 ├─ templates/
 │  ├─ index.html
 │  └─ result.html
