@@ -1,0 +1,344 @@
+{
+  "domains": [
+    { "key": "FSSAI", "label": "FSSAI (Food Safety)" },
+    { "key": "IPC", "label": "Indian Penal Code" },
+    { "key": "CONSUMER", "label": "Consumer Protection" },
+    { "key": "IT", "label": "Information Technology Act" },
+    { "key": "CRPC", "label": "CrPC (Criminal Procedure)" },
+    { "key": "MOTOR", "label": "Motor Vehicles Act" },
+    { "key": "POSH", "label": "Workplace Harassment - POSH Act" },
+    { "key": "RTI", "label": "Right to Information Act" }
+  ],
+
+  "keywords": {
+    "FSSAI": [
+      "food",
+      "stale",
+      "adulterated",
+      "restaurant",
+      "expiry",
+      "hygiene",
+      "unsafe",
+      "contaminated",
+      "fssai"
+    ],
+    "IPC": [
+      "ipc",
+      "section",
+      "cheating",
+      "420",
+      "417",
+      "506",
+      "threat",
+      "hurt",
+      "assault",
+      "forgery",
+      "false",
+      "property",
+      "fraud",
+      "criminal",
+      "violence",
+      "murder",
+      "death",
+      "harassment",
+      "theft",
+      "defamation"
+    ],
+    "CONSUMER": [
+      "refund",
+      "defective",
+      "warranty",
+      "replacement",
+      "seller",
+      "consumer",
+      "compensation",
+      "shop",
+      "return"
+    ],
+    "IT": [
+      "cyber",
+      "online",
+      "hacking",
+      "data theft",
+      "cyber bullying",
+      "phishing",
+      "it act",
+      "privacy",
+      "unauthorized access"
+    ],
+    "CRPC": [
+      "fir",
+      "arrest",
+      "bail",
+      "police",
+      "investigation",
+      "crpc",
+      "court",
+      "charge sheet"
+    ],
+    "MOTOR": [
+      "traffic",
+      "license",
+      "accident",
+      "insurance",
+      "driving",
+      "hit and run",
+      "drunk driving",
+      "vehicle"
+    ],
+    "POSH": [
+      "harassment",
+      "workplace",
+      "sexual",
+      "complaint",
+      "ic committee",
+      "employee",
+      "posh",
+      "inappropriate"
+    ],
+    "RTI": [
+      "information",
+      "rti",
+      "public authority",
+      "government",
+      "transparency",
+      "appeal",
+      "application"
+    ]
+  },
+
+  "statutes": [
+    {
+      "id": "ipc-379",
+      "domain": "IPC",
+      "title": "IPC Section 379",
+      "section": "Theft",
+      "summary": "Whoever commits theft shall be punished with imprisonment which may extend to three years, or with fine, or with both. Theft involves dishonestly taking any movable property out of someone’s possession without consent.",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "crpc-41",
+      "domain": "CRPC",
+      "title": "CrPC Section 41",
+      "section": "When Police May Arrest Without Warrant",
+      "summary": "Police may arrest without warrant any person who has committed a cognizable offence, or against whom credible information exists about committing such offence. Arrest must be reasonable and based on necessity such as preventing further crime or ensuring appearance in court.",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "ipc-420",
+      "domain": "IPC",
+      "title": "IPC Section 420",
+      "section": "Cheating and dishonestly inducing delivery of property",
+      "summary": "Whoever cheats and dishonestly induces another person to deliver property or valuable security shall be punished with imprisonment up to seven years and a fine. This covers fraud, misrepresentation, and dishonest promises.",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "ipc-506",
+      "domain": "IPC",
+      "title": "IPC Section 506",
+      "section": "Criminal intimidation",
+      "summary": "Whoever threatens another with injury to person, reputation, or property, intending to cause alarm, commits criminal intimidation. Punishment may extend to two years, or with fine, or both.",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "ipc-375",
+      "domain": "IPC",
+      "title": "IPC Section 375",
+      "section": "Definition of Rape",
+      "summary": "A man is said to commit rape if he has sexual intercourse with a woman against her will, without consent, or under coercion. The section defines circumstances constituting rape.",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "ipc-376",
+      "domain": "IPC",
+      "title": "IPC Section 376",
+      "section": "Punishment for Rape",
+      "summary": "Whoever commits rape shall be punished with imprisonment of not less than seven years, which may extend to life imprisonment, and shall also be liable to fine.",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "it-66",
+      "domain": "IT",
+      "title": "IT Act Section 66C & 66D",
+      "section": "Identity Theft and Cheating by Personation",
+      "summary": "Section 66C deals with identity theft using another person’s password or electronic signature. Section 66D punishes cheating by impersonation using electronic communication. Both are punishable with imprisonment up to 3 years and fine.",
+      "source": "https://www.meity.gov.in/"
+    },
+    {
+      "id": "fssai-26",
+      "domain": "FSSAI",
+      "title": "Food Safety and Standards Act, 2006",
+      "section": "Sections 26, 59",
+      "summary": "Every food business operator is responsible for food safety. Selling unsafe, unhygienic, or adulterated food attracts heavy penalties and imprisonment under Sections 26 and 59.",
+      "source": "https://fssai.gov.in/"
+    },
+    {
+      "id": "cpa-2019",
+      "domain": "CONSUMER",
+      "title": "Consumer Protection Act, 2019",
+      "section": "Deficiency in Service and Unfair Trade Practices",
+      "summary": "The CPA 2019 protects consumers against defective goods or poor service. They may seek refund, replacement, or compensation by filing complaints in Consumer Dispute Redressal Commissions.",
+      "source": "https://consumeraffairs.nic.in/"
+    },
+    {
+      "id": "crpc-154",
+      "domain": "CRPC",
+      "title": "CrPC Section 154",
+      "section": "FIR Procedure",
+      "summary": "Any person aware of a cognizable offence may give information to the police, which must be recorded as an FIR. Refusal to register an FIR can be appealed under Section 154(3).",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "mva-185",
+      "domain": "MOTOR",
+      "title": "Motor Vehicles Act Section 185",
+      "section": "Drunk and Dangerous Driving",
+      "summary": "Whoever drives a vehicle under the influence of alcohol or drugs to such an extent as to be incapable of proper control shall be punished with imprisonment up to 6 months or fine up to ₹10,000, or both.",
+      "source": "https://morth.nic.in/"
+    },
+    {
+  "id": "crpc-41",
+  "domain": "CRPC",
+  "title": "CrPC Section 41",
+  "section": "When Police May Arrest Without Warrant",
+  "summary": "Police may arrest without warrant any person who has committed a cognizable offence, or against whom credible information exists. Arrest must be justified, reasonable, and recorded with proper reasons. Arbitrary or unlawful arrests are prohibited as per judicial guidelines.",
+  "source": "https://legislative.gov.in/"
+}
+,
+    {
+      "id": "posh-2013",
+      "domain": "POSH",
+      "title": "POSH Act, 2013",
+      "section": "Workplace Sexual Harassment Prohibition",
+      "summary": "The POSH Act provides protection to women against sexual harassment at workplace. It mandates every organization to form an Internal Complaints Committee (ICC).",
+      "source": "https://wcd.nic.in/"
+    },
+    {
+      "id": "rti-2005",
+      "domain": "RTI",
+      "title": "Right to Information Act, 2005",
+      "section": "Public Access to Government Information",
+      "summary": "Citizens have the right to seek information from public authorities. The Act promotes transparency, accountability, and empowers citizens to access official records.",
+      "source": "https://rti.gov.in/"
+    }
+  ],
+
+  "qaPairs": [
+    {
+      "id": "qa-ipc-420",
+      "domain": "IPC",
+      "q": "Someone cheated me by taking my money. What can I do?",
+      "a": "You can file a complaint under IPC Section 420 for cheating and dishonest inducement. It covers fraud, false promises, or deceit to obtain property. The offender can face up to 7 years in prison.",
+      "refs": ["ipc-420"]
+    },
+    {
+      "id": "qa-crpc-41",
+      "domain": "CRPC",
+      "q": "Can police arrest me without a warrant?",
+      "a": "Yes, but only under certain circumstances. CrPC Section 41 allows police to arrest without a warrant if a person is suspected of committing a cognizable offence or to prevent further crimes.",
+      "refs": ["crpc-41"]
+    },
+    {
+      "id": "qa-ipc-506",
+      "domain": "IPC",
+      "q": "He threatened to harm me. What law applies?",
+      "a": "IPC Section 506 applies for criminal intimidation — threatening another person with injury to cause fear or coercion. It is a punishable offence.",
+      "refs": ["ipc-506"]
+    },
+    {
+      "id": "qa-it-identity",
+      "domain": "IT",
+      "q": "Someone hacked my social media account and used my photos. What can I do?",
+      "a": "File a complaint under IT Act Sections 66C and 66D. These cover identity theft and cheating by impersonation using electronic communication.",
+      "refs": ["it-66"]
+    },
+    {
+      "id": "qa-consumer-phone",
+      "domain": "CONSUMER",
+      "q": "My new phone is defective and the seller refuses refund.",
+      "a": "Under the Consumer Protection Act, 2019, you can demand replacement or compensation for defective products or poor service.",
+      "refs": ["cpa-2019"]
+    },
+    {
+      "id": "qa-posh-1",
+      "domain": "POSH",
+      "q": "My boss made inappropriate comments. What can I do?",
+      "a": "This falls under the POSH Act, 2013. File a complaint with your organization’s Internal Complaints Committee (ICC). Sexual harassment at workplace is a punishable offence.",
+      "refs": ["posh-2013"]
+    },
+    {
+      "id": "qa-motor-1",
+      "domain": "MOTOR",
+      "q": "What is the punishment for drunk driving in India?",
+      "a": "Motor Vehicles Act Section 185 prescribes imprisonment up to six months or a fine up to ₹10,000 for drunk driving.",
+      "refs": ["mva-185"]
+    }
+  ],
+
+  "cases": [
+    {
+      "id": "case-ipc-420",
+      "domain": "IPC",
+      "title": "Rajesh Kumar vs State (2008)",
+      "snippet": "Clarified that deceitful intention at the time of making a promise is essential for a conviction under IPC Section 420.",
+      "url": "https://indiankanoon.org/"
+    },
+    {
+      "id": "case-crpc-arrest1",
+      "domain": "CRPC",
+      "title": "Arnesh Kumar v. State of Bihar (2014)",
+      "snippet": "Supreme Court held that police cannot arrest automatically for offences punishable up to 7 years. Reasons for arrest must be recorded to prevent misuse of power.",
+      "url": "https://indiankanoon.org/"
+    },
+    {
+      "id": "case-crpc-arrest2",
+      "domain": "CRPC",
+      "title": "Joginder Kumar v. State of UP (1994)",
+      "snippet": "Court emphasized that arrest must not be routine. Police must justify necessity for arrest based on credible reasons.",
+      "url": "https://indiankanoon.org/"
+    },
+    {
+      "id": "case-ipc-506",
+      "domain": "IPC",
+      "title": "Manik Taneja v. State of Karnataka (2015)",
+      "snippet": "Discussed online threats and intimidation under IPC 506.",
+      "url": "https://indiankanoon.org/"
+    },
+    {
+      "id": "case-it-identity",
+      "domain": "IT",
+      "title": "Shreya Singhal v. Union of India (2015)",
+      "snippet": "Landmark judgment protecting free speech online; clarified misuse of IT Act provisions including identity-based offences.",
+      "url": "https://indiankanoon.org/"
+    },
+    {
+      "id": "case-consumer-1",
+      "domain": "CONSUMER",
+      "title": "Pioneer Urban Land v. Govindan Raghavan (2019)",
+      "snippet": "Supreme Court upheld a consumer’s right to refund and compensation for deficient service.",
+      "url": "https://main.sci.gov.in/"
+    },
+    {
+      "id": "case-posh-1",
+      "domain": "POSH",
+      "title": "Vishaka v. State of Rajasthan (1997)",
+      "snippet": "Laid down guidelines against sexual harassment at workplace, forming the basis for the POSH Act, 2013.",
+      "url": "https://indiankanoon.org/"
+    },
+    {
+  "id": "case-crpc-arrest1",
+  "domain": "CRPC",
+  "title": "Arnesh Kumar v. State of Bihar (2014)",
+  "snippet": "Supreme Court held that police cannot arrest automatically for offences punishable up to 7 years. Reasons for arrest must be recorded to prevent misuse of power.",
+  "url": "https://indiankanoon.org/"
+},
+{
+  "id": "case-crpc-arrest2",
+  "domain": "CRPC",
+  "title": "Joginder Kumar v. State of UP (1994)",
+  "snippet": "Court emphasized that arrest must not be routine. Police must justify necessity for arrest based on credible reasons.",
+  "url": "https://indiankanoon.org/"
+}
+
+  ]
+}

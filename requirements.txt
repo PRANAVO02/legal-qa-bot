@@ -1,0 +1,7 @@
+flask==3.0.3
+transformers==4.44.2
+sentence-transformers==3.0.1
+scikit-learn==1.5.1
+numpy==1.26.4
+# Note: Installing torch can be platform-specific. This will fetch CPU version by default.
+torch>=2.2.0

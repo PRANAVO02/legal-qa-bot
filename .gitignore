@@ -1,0 +1,42 @@
+# --- Python cache & virtual environment ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+ENV/
+*.env
+*.venv
+.Python
+.venv/
+# --- IDE / Editor files ---
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Logs & temporary files ---
+*.log
+*.tmp
+*.bak
+
+# --- Flask specific ---
+instance/
+*.db
+*.sqlite3
+
+# --- Jupyter Notebook checkpoints ---
+.ipynb_checkpoints/
+
