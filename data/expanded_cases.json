@@ -1,0 +1,1569 @@
+{
+  "domains": [
+    {
+      "key": "FSSAI",
+      "label": "FSSAI (Food Safety)"
+    },
+    {
+      "key": "IPC",
+      "label": "Indian Penal Code"
+    },
+    {
+      "key": "CONSUMER",
+      "label": "Consumer Protection"
+    },
+    {
+      "key": "IT",
+      "label": "Information Technology Act"
+    },
+    {
+      "key": "CRPC",
+      "label": "CrPC (Criminal Procedure)"
+    },
+    {
+      "key": "MOTOR",
+      "label": "Motor Vehicles Act"
+    },
+    {
+      "key": "POSH",
+      "label": "Workplace Harassment - POSH Act"
+    },
+    {
+      "key": "RTI",
+      "label": "Right to Information Act"
+    },
+    {
+      "key": "DOMESTIC_VIOLENCE",
+      "label": "Domestic Violence Act"
+    },
+    {
+      "key": "DOWRY",
+      "label": "Dowry Prohibition Act"
+    },
+    {
+      "key": "LABOUR",
+      "label": "Labour Laws"
+    },
+    {
+      "key": "ENVIRONMENT",
+      "label": "Environmental Laws"
+    },
+    {
+      "key": "IPR",
+      "label": "Intellectual Property Rights"
+    },
+    {
+      "key": "JUVENILE",
+      "label": "Juvenile Justice Act"
+    },
+    {
+      "key": "SC_ST",
+      "label": "SC/ST Prevention of Atrocities Act"
+    },
+    {
+      "key": "CHILD_LABOUR",
+      "label": "Child Labour Prohibition Act"
+    },
+    {
+      "key": "NI_ACT",
+      "label": "Negotiable Instruments Act"
+    },
+    {
+      "key": "CONTRACT",
+      "label": "Indian Contract Act"
+    },
+    {
+      "key": "PROPERTY",
+      "label": "Transfer of Property Act"
+    },
+    {
+      "key": "EVIDENCE",
+      "label": "Indian Evidence Act"
+    }
+  ],
+  "keywords": {
+    "FSSAI": [
+      "food",
+      "stale",
+      "adulterated",
+      "restaurant",
+      "expiry",
+      "hygiene",
+      "unsafe",
+      "contaminated",
+      "fssai"
+    ],
+    "IPC": [
+      "ipc",
+      "section",
+      "cheating",
+      "420",
+      "417",
+      "506",
+      "threat",
+      "hurt",
+      "assault",
+      "forgery",
+      "false",
+      "property",
+      "fraud",
+      "criminal",
+      "violence",
+      "murder",
+      "death",
+      "harassment",
+      "theft",
+      "defamation"
+    ],
+    "CONSUMER": [
+      "refund",
+      "defective",
+      "warranty",
+      "replacement",
+      "seller",
+      "consumer",
+      "compensation",
+      "shop",
+      "return"
+    ],
+    "IT": [
+      "cyber",
+      "online",
+      "hacking",
+      "data theft",
+      "cyber bullying",
+      "phishing",
+      "it act",
+      "privacy",
+      "unauthorized access"
+    ],
+    "CRPC": [
+      "fir",
+      "arrest",
+      "bail",
+      "police",
+      "investigation",
+      "crpc",
+      "court",
+      "charge sheet"
+    ],
+    "MOTOR": [
+      "traffic",
+      "license",
+      "accident",
+      "insurance",
+      "driving",
+      "hit and run",
+      "drunk driving",
+      "vehicle"
+    ],
+    "POSH": [
+      "harassment",
+      "workplace",
+      "sexual",
+      "complaint",
+      "ic committee",
+      "employee",
+      "posh",
+      "inappropriate"
+    ],
+    "RTI": [
+      "information",
+      "rti",
+      "public authority",
+      "government",
+      "transparency",
+      "appeal",
+      "application"
+    ],
+    "DOMESTIC_VIOLENCE": [
+      "domestic violence",
+      "protection order",
+      "residence order",
+      "monetary relief",
+      "shared household",
+      "abuse",
+      "physical abuse"
+    ],
+    "DOWRY": [
+      "dowry",
+      "dowry demand",
+      "dowry harassment",
+      "dowry death",
+      "marriage",
+      "in-laws"
+    ],
+    "LABOUR": [
+      "wages",
+      "minimum wages",
+      "overtime",
+      "workplace safety",
+      "employee",
+      "employer",
+      "provident fund",
+      "gratuity"
+    ],
+    "ENVIRONMENT": [
+      "pollution",
+      "air pollution",
+      "water pollution",
+      "environmental clearance",
+      "forest",
+      "wildlife",
+      "protected area"
+    ],
+    "IPR": [
+      "patent",
+      "trademark",
+      "copyright",
+      "design",
+      "infringement",
+      "intellectual property",
+      "piracy"
+    ],
+    "JUVENILE": [
+      "juvenile",
+      "child in conflict",
+      "child protection",
+      "rehabilitation",
+      "minor offence"
+    ],
+    "SC_ST": [
+      "atrocity",
+      "scheduled caste",
+      "scheduled tribe",
+      "caste discrimination",
+      "untouchability"
+    ],
+    "CHILD_LABOUR": [
+      "child labour",
+      "child employment",
+      "hazardous work",
+      "adolescent"
+    ],
+    "NI_ACT": [
+      "cheque bounce",
+      "dishonoured cheque",
+      "negotiable instrument",
+      "section 138",
+      "cheque return"
+    ],
+    "CONTRACT": [
+      "contract",
+      "agreement",
+      "breach of contract",
+      "consideration",
+      "offer",
+      "acceptance",
+      "void agreement"
+    ],
+    "PROPERTY": [
+      "property transfer",
+      "sale deed",
+      "mortgage",
+      "lease",
+      "immovable property",
+      "registration"
+    ],
+    "EVIDENCE": [
+      "evidence",
+      "witness",
+      "testimony",
+      "documentary evidence",
+      "admissibility",
+      "presumption"
+    ]
+  },
+  "statutes": [
+    {
+      "id": "ipc-379",
+      "domain": "IPC",
+      "title": "IPC Section 379",
+      "section": "Theft",
+      "summary": "Whoever commits theft shall be punished with imprisonment which may extend to three years, or with fine, or with both. Theft involves dishonestly taking any movable property out of someone's possession without consent.",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "ipc-420",
+      "domain": "IPC",
+      "title": "IPC Section 420",
+      "section": "Cheating and dishonestly inducing delivery of property",
+      "summary": "Whoever cheats and dishonestly induces another person to deliver property or valuable security shall be punished with imprisonment up to seven years and a fine. This covers fraud, misrepresentation, and dishonest promises.",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "ipc-506",
+      "domain": "IPC",
+      "title": "IPC Section 506",
+      "section": "Criminal intimidation",
+      "summary": "Whoever threatens another with injury to person, reputation, or property, intending to cause alarm, commits criminal intimidation. Punishment may extend to two years, or with fine, or both.",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "ipc-375",
+      "domain": "IPC",
+      "title": "IPC Section 375",
+      "section": "Definition of Rape",
+      "summary": "A man is said to commit rape if he has sexual intercourse with a woman against her will, without consent, or under coercion. The section defines circumstances constituting rape.",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "ipc-376",
+      "domain": "IPC",
+      "title": "IPC Section 376",
+      "section": "Punishment for Rape",
+      "summary": "Whoever commits rape shall be punished with imprisonment of not less than seven years, which may extend to life imprisonment, and shall also be liable to fine.",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "it-66",
+      "domain": "IT",
+      "title": "IT Act Section 66C & 66D",
+      "section": "Identity Theft and Cheating by Personation",
+      "summary": "Section 66C deals with identity theft using another person's password or electronic signature. Section 66D punishes cheating by impersonation using electronic communication. Both are punishable with imprisonment up to 3 years and fine.",
+      "source": "https://www.meity.gov.in/"
+    },
+    {
+      "id": "fssai-26",
+      "domain": "FSSAI",
+      "title": "Food Safety and Standards Act, 2006",
+      "section": "Sections 26, 59",
+      "summary": "Every food business operator is responsible for food safety. Selling unsafe, unhygienic, or adulterated food attracts heavy penalties and imprisonment under Sections 26 and 59.",
+      "source": "https://fssai.gov.in/"
+    },
+    {
+      "id": "cpa-2019",
+      "domain": "CONSUMER",
+      "title": "Consumer Protection Act, 2019",
+      "section": "Deficiency in Service and Unfair Trade Practices",
+      "summary": "The CPA 2019 protects consumers against defective goods or poor service. They may seek refund, replacement, or compensation by filing complaints in Consumer Dispute Redressal Commissions.",
+      "source": "https://consumeraffairs.nic.in/"
+    },
+    {
+      "id": "crpc-154",
+      "domain": "CRPC",
+      "title": "CrPC Section 154",
+      "section": "FIR Procedure",
+      "summary": "Any person aware of a cognizable offence may give information to the police, which must be recorded as an FIR. Refusal to register an FIR can be appealed under Section 154(3).",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "mva-185",
+      "domain": "MOTOR",
+      "title": "Motor Vehicles Act Section 185",
+      "section": "Drunk and Dangerous Driving",
+      "summary": "Whoever drives a vehicle under the influence of alcohol or drugs to such an extent as to be incapable of proper control shall be punished with imprisonment up to 6 months or fine up to â‚¹10,000, or both.",
+      "source": "https://morth.nic.in/"
+    },
+    {
+      "id": "posh-2013",
+      "domain": "POSH",
+      "title": "POSH Act, 2013",
+      "section": "Workplace Sexual Harassment Prohibition",
+      "summary": "The POSH Act provides protection to women against sexual harassment at workplace. It mandates every organization to form an Internal Complaints Committee (ICC).",
+      "source": "https://wcd.nic.in/"
+    },
+    {
+      "id": "rti-2005",
+      "domain": "RTI",
+      "title": "Right to Information Act, 2005",
+      "section": "Public Access to Government Information",
+      "summary": "Citizens have the right to seek information from public authorities. The Act promotes transparency, accountability, and empowers citizens to access official records.",
+      "source": "https://rti.gov.in/"
+    },
+    {
+      "id": "ipc-302",
+      "domain": "IPC",
+      "title": "IPC Section 302",
+      "section": "Punishment for Murder",
+      "summary": "Whoever commits murder shall be punished with death or imprisonment for life, and shall also be liable to fine. Murder is culpable homicide with intention to cause death.",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "ipc-304a",
+      "domain": "IPC",
+      "title": "IPC Section 304A",
+      "section": "Causing Death by Negligence",
+      "summary": "Whoever causes death by doing a rash or negligent act not amounting to culpable homicide shall be punished with imprisonment up to two years, or with fine, or both.",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "ipc-307",
+      "domain": "IPC",
+      "title": "IPC Section 307",
+      "section": "Attempt to Murder",
+      "summary": "Whoever does any act with such intention or knowledge and under such circumstances that, if he by that act caused death, he would be guilty of murder, shall be punished with imprisonment up to 10 years and fine. If hurt is caused, life imprisonment may be imposed.",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "ipc-323",
+      "domain": "IPC",
+      "title": "IPC Section 323",
+      "section": "Punishment for Voluntarily Causing Hurt",
+      "summary": "Whoever voluntarily causes hurt shall be punished with imprisonment up to one year, or with fine up to â‚¹1,000, or both.",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "ipc-354",
+      "domain": "IPC",
+      "title": "IPC Section 354",
+      "section": "Assault on Woman with Intent to Outrage Her Modesty",
+      "summary": "Whoever assaults or uses criminal force to any woman, intending to outrage or knowing it to be likely that he will thereby outrage her modesty, shall be punished with imprisonment up to two years, or with fine, or both.",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "ipc-406",
+      "domain": "IPC",
+      "title": "IPC Section 406",
+      "section": "Criminal Breach of Trust",
+      "summary": "Whoever commits criminal breach of trust shall be punished with imprisonment up to three years, or with fine, or both. This involves dishonest misappropriation of property entrusted to one's care.",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "ipc-498a",
+      "domain": "IPC",
+      "title": "IPC Section 498A",
+      "section": "Cruelty by Husband or Relatives",
+      "summary": "Whoever, being the husband or relative of the husband of a woman, subjects her to cruelty shall be punished with imprisonment up to three years and fine. Cruelty includes harassment for dowry demands.",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "dv-act-2005",
+      "domain": "DOMESTIC_VIOLENCE",
+      "title": "Protection of Women from Domestic Violence Act, 2005",
+      "section": "Section 3 - Definition of Domestic Violence",
+      "summary": "Defines domestic violence to include physical, sexual, verbal, emotional, and economic abuse. Provides for protection orders, residence orders, monetary relief, and custody orders for aggrieved women.",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "dv-section-31",
+      "domain": "DOMESTIC_VIOLENCE",
+      "title": "PWDV Act Section 31",
+      "section": "Penalty for Breach of Protection Order",
+      "summary": "Breach of protection order by the respondent is punishable with imprisonment up to one year or fine up to â‚¹20,000, or both. Protection Officers who fail to discharge duties may also face penalties.",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "dowry-section-3",
+      "domain": "DOWRY",
+      "title": "Dowry Prohibition Act Section 3",
+      "section": "Penalty for Giving or Taking Dowry",
+      "summary": "Giving or taking dowry is punishable with imprisonment of not less than 5 years and fine of not less than â‚¹15,000 or the dowry amount, whichever is more. This applies to both giving and receiving parties.",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "dowry-section-4",
+      "domain": "DOWRY",
+      "title": "Dowry Prohibition Act Section 4",
+      "section": "Penalty for Demanding Dowry",
+      "summary": "Demanding dowry directly or indirectly from parents, relatives, or guardians is punishable with imprisonment of not less than 6 months (may extend to 2 years) and fine up to â‚¹10,000.",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "ipc-304b",
+      "domain": "DOWRY",
+      "title": "IPC Section 304B",
+      "section": "Dowry Death",
+      "summary": "Where death of a woman is caused by burns, bodily injury, or occurs under unnatural circumstances within 7 years of marriage and she was subjected to cruelty or harassment for dowry demands, it is deemed dowry death. Punishment is imprisonment for not less than 7 years, which may extend to life.",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "labour-min-wages",
+      "domain": "LABOUR",
+      "title": "Minimum Wages Act, 1948",
+      "section": "Section 12 - Payment of Minimum Wages",
+      "summary": "Every employer must pay minimum wages as fixed by the appropriate government. Non-payment or payment below minimum wages attracts penalties including imprisonment up to 6 months and fines.",
+      "source": "https://clc.gov.in/"
+    },
+    {
+      "id": "labour-factories",
+      "domain": "LABOUR",
+      "title": "Factories Act, 1948",
+      "section": "Section 92 - Penalty for Accidents",
+      "summary": "If death or serious injury occurs due to employer's failure to comply with safety provisions, the employer faces fine not less than â‚¹25,000. For grievous injury, minimum fine is â‚¹5,000. Imprisonment up to 2 years may be imposed under Occupational Safety Code 2020.",
+      "source": "https://labour.gov.in/"
+    },
+    {
+      "id": "labour-provident",
+      "domain": "LABOUR",
+      "title": "Employees' Provident Funds Act, 1952",
+      "section": "Contribution Deduction and Non-Payment",
+      "summary": "Under Code on Social Security 2020, if employer deducts contributions but fails to deposit them, imprisonment of 1-3 years and fine of â‚¹50,000 to â‚¹1 lakh may be imposed. This is considered willful default.",
+      "source": "https://epfindia.gov.in/"
+    },
+    {
+      "id": "env-epa-1986",
+      "domain": "ENVIRONMENT",
+      "title": "Environment Protection Act, 1986",
+      "section": "Sections 15 & 16 - Penalties",
+      "summary": "Failure to comply with provisions of the Act is punishable with imprisonment up to 5 years or fine up to â‚¹1 lakh, or both. Continuing violation attracts additional fine of â‚¹5,000 per day.",
+      "source": "https://moef.gov.in/"
+    },
+    {
+      "id": "env-water-1974",
+      "domain": "ENVIRONMENT",
+      "title": "Water (Prevention and Control of Pollution) Act, 1974",
+      "section": "Pollution Control and Penalties",
+      "summary": "Establishes State Pollution Control Boards. Discharge of pollutants beyond prescribed limits is prohibited. Violations attract imprisonment and fines.",
+      "source": "https://cpcb.nic.in/"
+    },
+    {
+      "id": "env-air-1981",
+      "domain": "ENVIRONMENT",
+      "title": "Air (Prevention and Control of Pollution) Act, 1981",
+      "section": "Air Pollution Control",
+      "summary": "Prohibits emission of air pollutants beyond prescribed standards from industries, vehicles, and power plants. Empowers state governments to designate air pollution control areas.",
+      "source": "https://cpcb.nic.in/"
+    },
+    {
+      "id": "env-wildlife-1972",
+      "domain": "ENVIRONMENT",
+      "title": "Wildlife Protection Act, 1972",
+      "section": "Protection of Wild Animals and Plants",
+      "summary": "Provides protection to wild animals, birds, and plants through six schedules. Schedule I and II provide absolute protection with highest penalties. Offences attract imprisonment and heavy fines.",
+      "source": "https://moef.gov.in/"
+    },
+    {
+      "id": "ipr-trademark",
+      "domain": "IPR",
+      "title": "Trade Marks Act, 1999",
+      "section": "Trademark Infringement and Penalties",
+      "summary": "Using a deceptively similar trademark is punishable with imprisonment up to 3 years and fine up to â‚¹2 lakhs. For subsequent offenses, imprisonment may extend to 5 years and fine to â‚¹3 lakhs.",
+      "source": "https://ipindia.gov.in/"
+    },
+    {
+      "id": "ipr-copyright",
+      "domain": "IPR",
+      "title": "Copyright Act, 1957",
+      "section": "Copyright Infringement Remedies",
+      "summary": "Copyright infringement attracts civil remedies (injunction, damages) and criminal penalties including imprisonment of 6 months to 2 years and fine of â‚¹50,000 to â‚¹2 lakhs.",
+      "source": "https://copyright.gov.in/"
+    },
+    {
+      "id": "ipr-patent",
+      "domain": "IPR",
+      "title": "Patents Act, 1970",
+      "section": "Patent Rights and Violations",
+      "summary": "Grants exclusive rights to patent holders for 20 years. Provides penalties for falsification of register, unauthorized claims, and contravention of secrecy provisions. Imprisonment and fines may be imposed.",
+      "source": "https://ipindia.gov.in/"
+    },
+    {
+      "id": "ipr-designs",
+      "domain": "IPR",
+      "title": "Designs Act, 2000",
+      "section": "Industrial Design Protection",
+      "summary": "Protects original industrial designs for 10 years (extendable by 5 years). Infringement attracts civil and criminal remedies including fines and imprisonment.",
+      "source": "https://ipindia.gov.in/"
+    },
+    {
+      "id": "jj-act-2015",
+      "domain": "JUVENILE",
+      "title": "Juvenile Justice Act, 2015",
+      "section": "Care and Protection of Children",
+      "summary": "Applies to children in conflict with law (below 18 years) and children in need of care and protection. Establishes Juvenile Justice Boards and Child Welfare Committees. Provides for rehabilitation and social reintegration.",
+      "source": "https://wcd.nic.in/"
+    },
+    {
+      "id": "jj-section-75",
+      "domain": "JUVENILE",
+      "title": "JJ Act Section 75",
+      "section": "Punishment for Cruelty to Child",
+      "summary": "Whoever has actual charge of or control over a child and assaults, abandons, exposes, or wilfully neglects the child, causing physical or mental suffering, shall be punished with imprisonment up to 3 years or fine of â‚¹1 lakh, or both.",
+      "source": "https://wcd.nic.in/"
+    },
+    {
+      "id": "scst-section-3",
+      "domain": "SC_ST",
+      "title": "SC/ST Prevention of Atrocities Act Section 3",
+      "section": "Punishments for Atrocities",
+      "summary": "Defines 30+ offenses including social disabilities, personal harm, property damage, malicious prosecution, and economic exploitation against SC/ST members. Prescribes stringent punishments including life imprisonment.",
+      "source": "https://socialjustice.gov.in/"
+    },
+    {
+      "id": "scst-section-14",
+      "domain": "SC_ST",
+      "title": "SC/ST Act Section 14",
+      "section": "Special Courts",
+      "summary": "Provides for establishment of Special Courts for exclusive trial of offences under the Act. Courts must complete trial within 60 days of filing charge sheet. Anticipatory bail is prohibited.",
+      "source": "https://socialjustice.gov.in/"
+    },
+    {
+      "id": "child-labour-section-3",
+      "domain": "CHILD_LABOUR",
+      "title": "Child Labour Act Section 3 & 14",
+      "section": "Prohibition and Penalties",
+      "summary": "Prohibits employment of children below 14 years and adolescents (14-18) in hazardous occupations. Penalties: imprisonment of 6 months to 2 years and fine of â‚¹20,000 to â‚¹50,000. Repeat offenders face 1-3 years imprisonment.",
+      "source": "https://labour.gov.in/"
+    },
+    {
+      "id": "ni-section-138",
+      "domain": "NI_ACT",
+      "title": "Negotiable Instruments Act Section 138",
+      "section": "Dishonour of Cheque",
+      "summary": "When a cheque is dishonoured due to insufficient funds, the payee must issue notice within 30 days. If drawer fails to pay within 15 days, complaint can be filed. Punishment: imprisonment up to 2 years or fine up to twice the cheque amount, or both.",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "contract-section-10",
+      "domain": "CONTRACT",
+      "title": "Indian Contract Act Section 10",
+      "section": "What Agreements are Contracts",
+      "summary": "All agreements are contracts if made by free consent of parties competent to contract, for a lawful consideration with a lawful object, and not expressly declared void.",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "contract-section-73",
+      "domain": "CONTRACT",
+      "title": "Indian Contract Act Section 73",
+      "section": "Compensation for Loss or Damage",
+      "summary": "When a contract is broken, the party who suffers is entitled to receive compensation for any loss or damage caused by breach, which naturally arose in the usual course or which parties knew would likely result.",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "property-section-5",
+      "domain": "PROPERTY",
+      "title": "Transfer of Property Act Section 5",
+      "section": "Transfer of Property Defined",
+      "summary": "Transfer of property means an act by which a person conveys property to one or more persons. Property includes immovable and movable property. Transfer may be by sale, mortgage, lease, exchange, or gift.",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "property-section-54",
+      "domain": "PROPERTY",
+      "title": "Transfer of Property Act Section 54",
+      "section": "Sale of Immovable Property",
+      "summary": "Sale is a transfer of ownership in exchange for price paid or promised. For immovable property of value â‚¹100 or more, sale must be by registered instrument. Possession must be delivered.",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "evidence-section-3",
+      "domain": "EVIDENCE",
+      "title": "Indian Evidence Act Section 3",
+      "section": "Interpretation Clause",
+      "summary": "Defines key terms like 'evidence', 'proved', 'disproved', 'not proved', 'fact', 'fact in issue', and 'document'. Forms the foundation for understanding evidence law.",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "evidence-section-45",
+      "domain": "EVIDENCE",
+      "title": "Indian Evidence Act Section 45",
+      "section": "Opinions of Experts",
+      "summary": "When court has to form opinion on foreign law, science, art, handwriting, or finger impressions, opinions of experts are relevant. Expert testimony is admissible on specialized matters.",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "evidence-section-65b",
+      "domain": "EVIDENCE",
+      "title": "Indian Evidence Act Section 65B",
+      "section": "Admissibility of Electronic Records",
+      "summary": "Electronic records are admissible as evidence if conditions under Section 65B are satisfied, including certification. This section is crucial for cyber crime cases.",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "evidence-section-113b",
+      "domain": "EVIDENCE",
+      "title": "Indian Evidence Act Section 113B",
+      "section": "Presumption as to Dowry Death",
+      "summary": "When a woman dies within 7 years of marriage under unnatural circumstances and was subjected to cruelty or harassment for dowry, the court shall presume the husband or his relatives caused the dowry death.",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "crpc-41",
+      "domain": "CRPC",
+      "title": "CrPC Section 41",
+      "section": "When Police May Arrest Without Warrant",
+      "summary": "Police may arrest without warrant any person who has committed a cognizable offence, or against whom credible information exists. Arrest must be justified, reasonable, and recorded with proper reasons. Arbitrary or unlawful arrests are prohibited as per judicial guidelines.",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "ipc-auto-1",
+      "domain": "IPC",
+      "title": "404 Not Found, Sorry For the Inconvenience",
+      "section": "Auto-Section 1",
+      "summary": "Feedback Content Owned by LEGISLATIVE DEPARTMENT, Ministry of Law and Justice, GOI Developed and hosted byNational Informatics Centre,Ministry of Electronics & Information Technology, Government of India Last Updated:Nov 07, 2025",
+      "source": "https://legislative.gov.in/indian-penal-code-1860"
+    },
+    {
+      "id": "ipc-auto-2",
+      "domain": "IPC",
+      "title": "404 Not Found, Sorry For the Inconvenience",
+      "section": "Auto-Section 2",
+      "summary": "Feedback Content Owned by LEGISLATIVE DEPARTMENT, Ministry of Law and Justice, GOI Developed and hosted byNational Informatics Centre,Ministry of Electronics & Information Technology, Government of India Last Updated:Nov 07, 2025",
+      "source": "https://legislative.gov.in/indian-penal-code-1860"
+    },
+    {
+      "id": "ipc-auto-3",
+      "domain": "IPC",
+      "title": "404 Not Found, Sorry For the Inconvenience",
+      "section": "Auto-Section 3",
+      "summary": "Feedback Content Owned by LEGISLATIVE DEPARTMENT, Ministry of Law and Justice, GOI Developed and hosted byNational Informatics Centre,Ministry of Electronics & Information Technology, Government of India Last Updated:Nov 07, 2025",
+      "source": "https://legislative.gov.in/indian-penal-code-1860"
+    },
+    {
+      "id": "crpc-auto-1",
+      "domain": "CRPC",
+      "title": "Legislative Department",
+      "section": "Auto-Section 1",
+      "summary": " The Charter Act 1833 which was enacted by the British Parliament provided for the establishment of a Law Commission for consolidation and codification of Indian Laws. The said Act provided for the addition of a fourth ordinary Member to the Governor General in Council for India who was to be a legal expert in the making of laws. Lord Macaulay was appointed as the fourth ordinary Member and was entitled to participate in the meetings of the Governor General in Council for making of laws. In 1835, Lord Macaulay was appointed as Chairman of the First Law Commission. Sir James Stephen was appoint...",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "crpc-auto-2",
+      "domain": "CRPC",
+      "title": "Legislative Department",
+      "section": "Auto-Section 2",
+      "summary": " The Charter Act 1833 which was enacted by the British Parliament provided for the establishment of a Law Commission for consolidation and codification of Indian Laws. The said Act provided for the addition of a fourth ordinary Member to the Governor General in Council for India who was to be a legal expert in the making of laws. Lord Macaulay was appointed as the fourth ordinary Member and was entitled to participate in the meetings of the Governor General in Council for making of laws. In 1835, Lord Macaulay was appointed as Chairman of the First Law Commission. Sir James Stephen was appoint...",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "crpc-auto-3",
+      "domain": "CRPC",
+      "title": "Legislative Department",
+      "section": "Auto-Section 3",
+      "summary": " The Charter Act 1833 which was enacted by the British Parliament provided for the establishment of a Law Commission for consolidation and codification of Indian Laws. The said Act provided for the addition of a fourth ordinary Member to the Governor General in Council for India who was to be a legal expert in the making of laws. Lord Macaulay was appointed as the fourth ordinary Member and was entitled to participate in the meetings of the Governor General in Council for making of laws. In 1835, Lord Macaulay was appointed as Chairman of the First Law Commission. Sir James Stephen was appoint...",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "fssai-auto-1",
+      "domain": "FSSAI",
+      "title": "FSSAI",
+      "section": "Auto-Section 1",
+      "summary": "CEO, FSSAI Urges States/UTs to Strengthen Consumer Grievance Mechanism and Proactively Highlight Enforcement Actions [Updated on:14-10-2025] Hydroxymethylfurfural (HMF) to be considered as a quality parameter in Honey [Updated on:07-11-2025][0.09 MB] Gazette Notification of Food Safety Officer for the Fortified Rice Kernel under Sub-Section 5 of Section 10 read with Section 37 of FSS Act [Updated on:07-11-2025][1.38 MB] Selection for the post of Administrative Officer (PL-08) and Senior Private Secretary (PL-08) on Deputation on Foreign Service Terms Basis against Circular No. DEP-01/2025 [Upd...",
+      "source": "https://fssai.gov.in/"
+    },
+    {
+      "id": "fssai-auto-2",
+      "domain": "FSSAI",
+      "title": "FSSAI",
+      "section": "Auto-Section 2",
+      "summary": "CEO, FSSAI Urges States/UTs to Strengthen Consumer Grievance Mechanism and Proactively Highlight Enforcement Actions [Updated on:14-10-2025] Hydroxymethylfurfural (HMF) to be considered as a quality parameter in Honey [Updated on:07-11-2025][0.09 MB] Gazette Notification of Food Safety Officer for the Fortified Rice Kernel under Sub-Section 5 of Section 10 read with Section 37 of FSS Act [Updated on:07-11-2025][1.38 MB] Selection for the post of Administrative Officer (PL-08) and Senior Private Secretary (PL-08) on Deputation on Foreign Service Terms Basis against Circular No. DEP-01/2025 [Upd...",
+      "source": "https://fssai.gov.in/"
+    },
+    {
+      "id": "fssai-auto-3",
+      "domain": "FSSAI",
+      "title": "FSSAI",
+      "section": "Auto-Section 3",
+      "summary": "CEO, FSSAI Urges States/UTs to Strengthen Consumer Grievance Mechanism and Proactively Highlight Enforcement Actions [Updated on:14-10-2025] Hydroxymethylfurfural (HMF) to be considered as a quality parameter in Honey [Updated on:07-11-2025][0.09 MB] Gazette Notification of Food Safety Officer for the Fortified Rice Kernel under Sub-Section 5 of Section 10 read with Section 37 of FSS Act [Updated on:07-11-2025][1.38 MB] Selection for the post of Administrative Officer (PL-08) and Senior Private Secretary (PL-08) on Deputation on Foreign Service Terms Basis against Circular No. DEP-01/2025 [Upd...",
+      "source": "https://fssai.gov.in/"
+    },
+    {
+      "id": "rti-auto-1",
+      "domain": "RTI",
+      "title": "Right to Information",
+      "section": "Auto-Section 1",
+      "summary": "An Initiative of Department of Personnel & Training, Government of India Email: dirrti-dopt[at]nic[dot]in Contact No: 23092356 Room No. 278/A, North BlockNew Delhi - 110001Email: usir-dopt[at]nic[dot]inContact No: 23040401 Contact: 24622461Email: helprtionline-dopt[at]nic[dot]inEmail: rtipmu-dopt[at]nic[dot]in Email: helprtionline-dopt[at]nic[dot]in Email: rtipmu-dopt[at]nic[dot]in We welcome your suggestions to improve our site and request that any error found may kindly be brought to our notice at above Email IDs. Hyperlinks are provided to other external sites in some places. The queries/fe...",
+      "source": "https://rti.gov.in/"
+    },
+    {
+      "id": "rti-auto-2",
+      "domain": "RTI",
+      "title": "Right to Information",
+      "section": "Auto-Section 2",
+      "summary": "An Initiative of Department of Personnel & Training, Government of India Email: dirrti-dopt[at]nic[dot]in Contact No: 23092356 Room No. 278/A, North BlockNew Delhi - 110001Email: usir-dopt[at]nic[dot]inContact No: 23040401 Contact: 24622461Email: helprtionline-dopt[at]nic[dot]inEmail: rtipmu-dopt[at]nic[dot]in Email: helprtionline-dopt[at]nic[dot]in Email: rtipmu-dopt[at]nic[dot]in We welcome your suggestions to improve our site and request that any error found may kindly be brought to our notice at above Email IDs. Hyperlinks are provided to other external sites in some places. The queries/fe...",
+      "source": "https://rti.gov.in/"
+    },
+    {
+      "id": "rti-auto-3",
+      "domain": "RTI",
+      "title": "Right to Information",
+      "section": "Auto-Section 3",
+      "summary": "An Initiative of Department of Personnel & Training, Government of India Email: dirrti-dopt[at]nic[dot]in Contact No: 23092356 Room No. 278/A, North BlockNew Delhi - 110001Email: usir-dopt[at]nic[dot]inContact No: 23040401 Contact: 24622461Email: helprtionline-dopt[at]nic[dot]inEmail: rtipmu-dopt[at]nic[dot]in Email: helprtionline-dopt[at]nic[dot]in Email: rtipmu-dopt[at]nic[dot]in We welcome your suggestions to improve our site and request that any error found may kindly be brought to our notice at above Email IDs. Hyperlinks are provided to other external sites in some places. The queries/fe...",
+      "source": "https://rti.gov.in/"
+    },
+    {
+      "id": "domestic_violence-auto-1",
+      "domain": "DOMESTIC_VIOLENCE",
+      "title": "Legislative Department",
+      "section": "Auto-Section 1",
+      "summary": " The Charter Act 1833 which was enacted by the British Parliament provided for the establishment of a Law Commission for consolidation and codification of Indian Laws. The said Act provided for the addition of a fourth ordinary Member to the Governor General in Council for India who was to be a legal expert in the making of laws. Lord Macaulay was appointed as the fourth ordinary Member and was entitled to participate in the meetings of the Governor General in Council for making of laws. In 1835, Lord Macaulay was appointed as Chairman of the First Law Commission. Sir James Stephen was appoint...",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "domestic_violence-auto-2",
+      "domain": "DOMESTIC_VIOLENCE",
+      "title": "Legislative Department",
+      "section": "Auto-Section 2",
+      "summary": " The Charter Act 1833 which was enacted by the British Parliament provided for the establishment of a Law Commission for consolidation and codification of Indian Laws. The said Act provided for the addition of a fourth ordinary Member to the Governor General in Council for India who was to be a legal expert in the making of laws. Lord Macaulay was appointed as the fourth ordinary Member and was entitled to participate in the meetings of the Governor General in Council for making of laws. In 1835, Lord Macaulay was appointed as Chairman of the First Law Commission. Sir James Stephen was appoint...",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "domestic_violence-auto-3",
+      "domain": "DOMESTIC_VIOLENCE",
+      "title": "Legislative Department",
+      "section": "Auto-Section 3",
+      "summary": " The Charter Act 1833 which was enacted by the British Parliament provided for the establishment of a Law Commission for consolidation and codification of Indian Laws. The said Act provided for the addition of a fourth ordinary Member to the Governor General in Council for India who was to be a legal expert in the making of laws. Lord Macaulay was appointed as the fourth ordinary Member and was entitled to participate in the meetings of the Governor General in Council for making of laws. In 1835, Lord Macaulay was appointed as Chairman of the First Law Commission. Sir James Stephen was appoint...",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "dowry-auto-1",
+      "domain": "DOWRY",
+      "title": "Legislative Department",
+      "section": "Auto-Section 1",
+      "summary": " The Charter Act 1833 which was enacted by the British Parliament provided for the establishment of a Law Commission for consolidation and codification of Indian Laws. The said Act provided for the addition of a fourth ordinary Member to the Governor General in Council for India who was to be a legal expert in the making of laws. Lord Macaulay was appointed as the fourth ordinary Member and was entitled to participate in the meetings of the Governor General in Council for making of laws. In 1835, Lord Macaulay was appointed as Chairman of the First Law Commission. Sir James Stephen was appoint...",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "dowry-auto-2",
+      "domain": "DOWRY",
+      "title": "Legislative Department",
+      "section": "Auto-Section 2",
+      "summary": " The Charter Act 1833 which was enacted by the British Parliament provided for the establishment of a Law Commission for consolidation and codification of Indian Laws. The said Act provided for the addition of a fourth ordinary Member to the Governor General in Council for India who was to be a legal expert in the making of laws. Lord Macaulay was appointed as the fourth ordinary Member and was entitled to participate in the meetings of the Governor General in Council for making of laws. In 1835, Lord Macaulay was appointed as Chairman of the First Law Commission. Sir James Stephen was appoint...",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "dowry-auto-3",
+      "domain": "DOWRY",
+      "title": "Legislative Department",
+      "section": "Auto-Section 3",
+      "summary": " The Charter Act 1833 which was enacted by the British Parliament provided for the establishment of a Law Commission for consolidation and codification of Indian Laws. The said Act provided for the addition of a fourth ordinary Member to the Governor General in Council for India who was to be a legal expert in the making of laws. Lord Macaulay was appointed as the fourth ordinary Member and was entitled to participate in the meetings of the Governor General in Council for making of laws. In 1835, Lord Macaulay was appointed as Chairman of the First Law Commission. Sir James Stephen was appoint...",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "labour-auto-1",
+      "domain": "LABOUR",
+      "title": "श्रम एवं रोजगार मंत्रालयGovernment of IndiaMinistry of Labour & Employment",
+      "section": "Auto-Section 1",
+      "summary": "No new Circulars/Notifications available. For previous circulars please checkarchives No Content Available.... Tenders from Archive No Upcoming Events available. For previous events please checkarchive ",
+      "source": "https://labour.gov.in/"
+    },
+    {
+      "id": "labour-auto-2",
+      "domain": "LABOUR",
+      "title": "श्रम एवं रोजगार मंत्रालयGovernment of IndiaMinistry of Labour & Employment",
+      "section": "Auto-Section 2",
+      "summary": "No new Circulars/Notifications available. For previous circulars please checkarchives No Content Available.... Tenders from Archive No Upcoming Events available. For previous events please checkarchive ",
+      "source": "https://labour.gov.in/"
+    },
+    {
+      "id": "labour-auto-3",
+      "domain": "LABOUR",
+      "title": "श्रम एवं रोजगार मंत्रालयGovernment of IndiaMinistry of Labour & Employment",
+      "section": "Auto-Section 3",
+      "summary": "No new Circulars/Notifications available. For previous circulars please checkarchives No Content Available.... Tenders from Archive No Upcoming Events available. For previous events please checkarchive ",
+      "source": "https://labour.gov.in/"
+    },
+    {
+      "id": "environment-auto-1",
+      "domain": "ENVIRONMENT",
+      "title": "Home || Ministry of Environment, Forest and Climate Change",
+      "section": "Auto-Section 1",
+      "summary": "“राष्ट्रीय प्राणि उद्यान, मथुरा रोड, नई दिल्ली के आवासीय भवनों, गैर-आवासीय भवनों, बाड़ों और अन्य क्षेत्रों का रखरखाव और रखरखाव।” - 515साईज :1.69 MB अनुबंध के आधार पर 1 परामर्शदाता-ए की नियुक्ति - मंत्रालय की वेबसाइट पर विज्ञापन अपलोड करने का अनुरोध - तत्संबंधी। - 519साईज :91.12 KB बेंगलुरु में एकीकृत कार्यालय भवन परिसर का निर्माण - पर्यावरण, वन और जलवायु परिवर्तन मंत्रालय की वेबसाइट पर प्रकाशित करने के लिए आमंत्रित एनआईटी - 518साईज :11.98 MB पर्यावरण, वन और जलवायु परिवर्तन मंत्रालय के तहत वन्यजीव अपराध नियंत्रण ब्यूरो में सहायक निदेशक, सहायक निदेशक (वन्यजीव संरक्षण), वन्यजीव निरीक्षक, निरीक्षक...",
+      "source": "https://moef.gov.in/"
+    },
+    {
+      "id": "environment-auto-2",
+      "domain": "ENVIRONMENT",
+      "title": "Home || Ministry of Environment, Forest and Climate Change",
+      "section": "Auto-Section 2",
+      "summary": "“राष्ट्रीय प्राणि उद्यान, मथुरा रोड, नई दिल्ली के आवासीय भवनों, गैर-आवासीय भवनों, बाड़ों और अन्य क्षेत्रों का रखरखाव और रखरखाव।” - 515साईज :1.69 MB अनुबंध के आधार पर 1 परामर्शदाता-ए की नियुक्ति - मंत्रालय की वेबसाइट पर विज्ञापन अपलोड करने का अनुरोध - तत्संबंधी। - 519साईज :91.12 KB बेंगलुरु में एकीकृत कार्यालय भवन परिसर का निर्माण - पर्यावरण, वन और जलवायु परिवर्तन मंत्रालय की वेबसाइट पर प्रकाशित करने के लिए आमंत्रित एनआईटी - 518साईज :11.98 MB पर्यावरण, वन और जलवायु परिवर्तन मंत्रालय के तहत वन्यजीव अपराध नियंत्रण ब्यूरो में सहायक निदेशक, सहायक निदेशक (वन्यजीव संरक्षण), वन्यजीव निरीक्षक, निरीक्षक...",
+      "source": "https://moef.gov.in/"
+    },
+    {
+      "id": "environment-auto-3",
+      "domain": "ENVIRONMENT",
+      "title": "Home || Ministry of Environment, Forest and Climate Change",
+      "section": "Auto-Section 3",
+      "summary": "“राष्ट्रीय प्राणि उद्यान, मथुरा रोड, नई दिल्ली के आवासीय भवनों, गैर-आवासीय भवनों, बाड़ों और अन्य क्षेत्रों का रखरखाव और रखरखाव।” - 515साईज :1.69 MB अनुबंध के आधार पर 1 परामर्शदाता-ए की नियुक्ति - मंत्रालय की वेबसाइट पर विज्ञापन अपलोड करने का अनुरोध - तत्संबंधी। - 519साईज :91.12 KB बेंगलुरु में एकीकृत कार्यालय भवन परिसर का निर्माण - पर्यावरण, वन और जलवायु परिवर्तन मंत्रालय की वेबसाइट पर प्रकाशित करने के लिए आमंत्रित एनआईटी - 518साईज :11.98 MB पर्यावरण, वन और जलवायु परिवर्तन मंत्रालय के तहत वन्यजीव अपराध नियंत्रण ब्यूरो में सहायक निदेशक, सहायक निदेशक (वन्यजीव संरक्षण), वन्यजीव निरीक्षक, निरीक्षक...",
+      "source": "https://moef.gov.in/"
+    },
+    {
+      "id": "sc_st-auto-2",
+      "domain": "SC_ST",
+      "title": "Home | Department of Social Justice and Empowerment - Government of India",
+      "section": "Auto-Section 2",
+      "summary": "Ministry of Social Justice & Empowerment Government of India Ministry of Social Justice & Empowerment Government of India e-ANUDAAN(NGO GIA Proposal System) Nasha Mukt Bharat Abhiyaan Pradhan Mantri Anushuchit Jaati Abhyuday Yojana (PM-AJAY) Ageing with Dignity(Senior Citizens Welfare) National Overseas Scholarship Scheme Smile- Beggary Portal National Portal For Transgender Persons Post Matric Scholarship for SC students(National Scholarship Portal) Pradhan Mantri Dakshta Aur KushaltaSampann Hitgrahi Yojana (PM DAKSH) National Helpdesk for Prevention of Atrocities (POA) Development Action Pla...",
+      "source": "https://socialjustice.gov.in/"
+    },
+    {
+      "id": "sc_st-auto-3",
+      "domain": "SC_ST",
+      "title": "Home | Department of Social Justice and Empowerment - Government of India",
+      "section": "Auto-Section 3",
+      "summary": "Ministry of Social Justice & Empowerment Government of India Ministry of Social Justice & Empowerment Government of India e-ANUDAAN(NGO GIA Proposal System) Nasha Mukt Bharat Abhiyaan Pradhan Mantri Anushuchit Jaati Abhyuday Yojana (PM-AJAY) Ageing with Dignity(Senior Citizens Welfare) National Overseas Scholarship Scheme Smile- Beggary Portal National Portal For Transgender Persons Post Matric Scholarship for SC students(National Scholarship Portal) Pradhan Mantri Dakshta Aur KushaltaSampann Hitgrahi Yojana (PM DAKSH) National Helpdesk for Prevention of Atrocities (POA) Development Action Pla...",
+      "source": "https://socialjustice.gov.in/"
+    },
+    {
+      "id": "child_labour-auto-1",
+      "domain": "CHILD_LABOUR",
+      "title": "श्रम एवं रोजगार मंत्रालयGovernment of IndiaMinistry of Labour & Employment",
+      "section": "Auto-Section 1",
+      "summary": "No new Circulars/Notifications available. For previous circulars please checkarchives No Content Available.... Tenders from Archive No Upcoming Events available. For previous events please checkarchive ",
+      "source": "https://labour.gov.in/"
+    },
+    {
+      "id": "child_labour-auto-2",
+      "domain": "CHILD_LABOUR",
+      "title": "श्रम एवं रोजगार मंत्रालयGovernment of IndiaMinistry of Labour & Employment",
+      "section": "Auto-Section 2",
+      "summary": "No new Circulars/Notifications available. For previous circulars please checkarchives No Content Available.... Tenders from Archive No Upcoming Events available. For previous events please checkarchive ",
+      "source": "https://labour.gov.in/"
+    },
+    {
+      "id": "child_labour-auto-3",
+      "domain": "CHILD_LABOUR",
+      "title": "श्रम एवं रोजगार मंत्रालयGovernment of IndiaMinistry of Labour & Employment",
+      "section": "Auto-Section 3",
+      "summary": "No new Circulars/Notifications available. For previous circulars please checkarchives No Content Available.... Tenders from Archive No Upcoming Events available. For previous events please checkarchive ",
+      "source": "https://labour.gov.in/"
+    },
+    {
+      "id": "ni_act-auto-1",
+      "domain": "NI_ACT",
+      "title": "Legislative Department",
+      "section": "Auto-Section 1",
+      "summary": " The Charter Act 1833 which was enacted by the British Parliament provided for the establishment of a Law Commission for consolidation and codification of Indian Laws. The said Act provided for the addition of a fourth ordinary Member to the Governor General in Council for India who was to be a legal expert in the making of laws. Lord Macaulay was appointed as the fourth ordinary Member and was entitled to participate in the meetings of the Governor General in Council for making of laws. In 1835, Lord Macaulay was appointed as Chairman of the First Law Commission. Sir James Stephen was appoint...",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "ni_act-auto-2",
+      "domain": "NI_ACT",
+      "title": "Legislative Department",
+      "section": "Auto-Section 2",
+      "summary": " The Charter Act 1833 which was enacted by the British Parliament provided for the establishment of a Law Commission for consolidation and codification of Indian Laws. The said Act provided for the addition of a fourth ordinary Member to the Governor General in Council for India who was to be a legal expert in the making of laws. Lord Macaulay was appointed as the fourth ordinary Member and was entitled to participate in the meetings of the Governor General in Council for making of laws. In 1835, Lord Macaulay was appointed as Chairman of the First Law Commission. Sir James Stephen was appoint...",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "ni_act-auto-3",
+      "domain": "NI_ACT",
+      "title": "Legislative Department",
+      "section": "Auto-Section 3",
+      "summary": " The Charter Act 1833 which was enacted by the British Parliament provided for the establishment of a Law Commission for consolidation and codification of Indian Laws. The said Act provided for the addition of a fourth ordinary Member to the Governor General in Council for India who was to be a legal expert in the making of laws. Lord Macaulay was appointed as the fourth ordinary Member and was entitled to participate in the meetings of the Governor General in Council for making of laws. In 1835, Lord Macaulay was appointed as Chairman of the First Law Commission. Sir James Stephen was appoint...",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "contract-auto-1",
+      "domain": "CONTRACT",
+      "title": "Legislative Department",
+      "section": "Auto-Section 1",
+      "summary": " The Charter Act 1833 which was enacted by the British Parliament provided for the establishment of a Law Commission for consolidation and codification of Indian Laws. The said Act provided for the addition of a fourth ordinary Member to the Governor General in Council for India who was to be a legal expert in the making of laws. Lord Macaulay was appointed as the fourth ordinary Member and was entitled to participate in the meetings of the Governor General in Council for making of laws. In 1835, Lord Macaulay was appointed as Chairman of the First Law Commission. Sir James Stephen was appoint...",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "contract-auto-2",
+      "domain": "CONTRACT",
+      "title": "Legislative Department",
+      "section": "Auto-Section 2",
+      "summary": " The Charter Act 1833 which was enacted by the British Parliament provided for the establishment of a Law Commission for consolidation and codification of Indian Laws. The said Act provided for the addition of a fourth ordinary Member to the Governor General in Council for India who was to be a legal expert in the making of laws. Lord Macaulay was appointed as the fourth ordinary Member and was entitled to participate in the meetings of the Governor General in Council for making of laws. In 1835, Lord Macaulay was appointed as Chairman of the First Law Commission. Sir James Stephen was appoint...",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "contract-auto-3",
+      "domain": "CONTRACT",
+      "title": "Legislative Department",
+      "section": "Auto-Section 3",
+      "summary": " The Charter Act 1833 which was enacted by the British Parliament provided for the establishment of a Law Commission for consolidation and codification of Indian Laws. The said Act provided for the addition of a fourth ordinary Member to the Governor General in Council for India who was to be a legal expert in the making of laws. Lord Macaulay was appointed as the fourth ordinary Member and was entitled to participate in the meetings of the Governor General in Council for making of laws. In 1835, Lord Macaulay was appointed as Chairman of the First Law Commission. Sir James Stephen was appoint...",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "property-auto-1",
+      "domain": "PROPERTY",
+      "title": "Legislative Department",
+      "section": "Auto-Section 1",
+      "summary": " The Charter Act 1833 which was enacted by the British Parliament provided for the establishment of a Law Commission for consolidation and codification of Indian Laws. The said Act provided for the addition of a fourth ordinary Member to the Governor General in Council for India who was to be a legal expert in the making of laws. Lord Macaulay was appointed as the fourth ordinary Member and was entitled to participate in the meetings of the Governor General in Council for making of laws. In 1835, Lord Macaulay was appointed as Chairman of the First Law Commission. Sir James Stephen was appoint...",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "property-auto-2",
+      "domain": "PROPERTY",
+      "title": "Legislative Department",
+      "section": "Auto-Section 2",
+      "summary": " The Charter Act 1833 which was enacted by the British Parliament provided for the establishment of a Law Commission for consolidation and codification of Indian Laws. The said Act provided for the addition of a fourth ordinary Member to the Governor General in Council for India who was to be a legal expert in the making of laws. Lord Macaulay was appointed as the fourth ordinary Member and was entitled to participate in the meetings of the Governor General in Council for making of laws. In 1835, Lord Macaulay was appointed as Chairman of the First Law Commission. Sir James Stephen was appoint...",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "property-auto-3",
+      "domain": "PROPERTY",
+      "title": "Legislative Department",
+      "section": "Auto-Section 3",
+      "summary": " The Charter Act 1833 which was enacted by the British Parliament provided for the establishment of a Law Commission for consolidation and codification of Indian Laws. The said Act provided for the addition of a fourth ordinary Member to the Governor General in Council for India who was to be a legal expert in the making of laws. Lord Macaulay was appointed as the fourth ordinary Member and was entitled to participate in the meetings of the Governor General in Council for making of laws. In 1835, Lord Macaulay was appointed as Chairman of the First Law Commission. Sir James Stephen was appoint...",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "evidence-auto-1",
+      "domain": "EVIDENCE",
+      "title": "Legislative Department",
+      "section": "Auto-Section 1",
+      "summary": " The Charter Act 1833 which was enacted by the British Parliament provided for the establishment of a Law Commission for consolidation and codification of Indian Laws. The said Act provided for the addition of a fourth ordinary Member to the Governor General in Council for India who was to be a legal expert in the making of laws. Lord Macaulay was appointed as the fourth ordinary Member and was entitled to participate in the meetings of the Governor General in Council for making of laws. In 1835, Lord Macaulay was appointed as Chairman of the First Law Commission. Sir James Stephen was appoint...",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "evidence-auto-2",
+      "domain": "EVIDENCE",
+      "title": "Legislative Department",
+      "section": "Auto-Section 2",
+      "summary": " The Charter Act 1833 which was enacted by the British Parliament provided for the establishment of a Law Commission for consolidation and codification of Indian Laws. The said Act provided for the addition of a fourth ordinary Member to the Governor General in Council for India who was to be a legal expert in the making of laws. Lord Macaulay was appointed as the fourth ordinary Member and was entitled to participate in the meetings of the Governor General in Council for making of laws. In 1835, Lord Macaulay was appointed as Chairman of the First Law Commission. Sir James Stephen was appoint...",
+      "source": "https://legislative.gov.in/"
+    },
+    {
+      "id": "evidence-auto-3",
+      "domain": "EVIDENCE",
+      "title": "Legislative Department",
+      "section": "Auto-Section 3",
+      "summary": " The Charter Act 1833 which was enacted by the British Parliament provided for the establishment of a Law Commission for consolidation and codification of Indian Laws. The said Act provided for the addition of a fourth ordinary Member to the Governor General in Council for India who was to be a legal expert in the making of laws. Lord Macaulay was appointed as the fourth ordinary Member and was entitled to participate in the meetings of the Governor General in Council for making of laws. In 1835, Lord Macaulay was appointed as Chairman of the First Law Commission. Sir James Stephen was appoint...",
+      "source": "https://legislative.gov.in/"
+    }
+  ],
+  "qaPairs": [
+    {
+      "id": "qa-ipc-420",
+      "domain": "IPC",
+      "q": "Someone cheated me by taking my money. What can I do?",
+      "a": "You can file a complaint under IPC Section 420 for cheating and dishonest inducement. It covers fraud, false promises, or deceit to obtain property. The offender can face up to 7 years in prison.",
+      "refs": [
+        "ipc-420"
+      ]
+    },
+    {
+      "id": "qa-crpc-41",
+      "domain": "CRPC",
+      "q": "Can police arrest me without a warrant?",
+      "a": "Yes, but only under certain circumstances. CrPC Section 41 allows police to arrest without a warrant if a person is suspected of committing a cognizable offence or to prevent further crimes.",
+      "refs": [
+        "crpc-41"
+      ]
+    },
+    {
+      "id": "qa-ipc-506",
+      "domain": "IPC",
+      "q": "He threatened to harm me. What law applies?",
+      "a": "IPC Section 506 applies for criminal intimidation â€” threatening another person with injury to cause fear or coercion. It is a punishable offence.",
+      "refs": [
+        "ipc-506"
+      ]
+    },
+    {
+      "id": "qa-it-identity",
+      "domain": "IT",
+      "q": "Someone hacked my social media account and used my photos. What can I do?",
+      "a": "File a complaint under IT Act Sections 66C and 66D. These cover identity theft and cheating by impersonation using electronic communication.",
+      "refs": [
+        "it-66"
+      ]
+    },
+    {
+      "id": "qa-consumer-phone",
+      "domain": "CONSUMER",
+      "q": "My new phone is defective and the seller refuses refund.",
+      "a": "Under the Consumer Protection Act, 2019, you can demand replacement or compensation for defective products or poor service.",
+      "refs": [
+        "cpa-2019"
+      ]
+    },
+    {
+      "id": "qa-posh-1",
+      "domain": "POSH",
+      "q": "My boss made inappropriate comments. What can I do?",
+      "a": "This falls under the POSH Act, 2013. File a complaint with your organization's Internal Complaints Committee (ICC). Sexual harassment at workplace is a punishable offence.",
+      "refs": [
+        "posh-2013"
+      ]
+    },
+    {
+      "id": "qa-motor-1",
+      "domain": "MOTOR",
+      "q": "What is the punishment for drunk driving in India?",
+      "a": "Motor Vehicles Act Section 185 prescribes imprisonment up to six months or a fine up to â‚¹10,000 for drunk driving.",
+      "refs": [
+        "mva-185"
+      ]
+    },
+    {
+      "id": "qa-ipc-murder",
+      "domain": "IPC",
+      "q": "What is the punishment for murder in India?",
+      "a": "Under IPC Section 302, murder is punishable with death penalty or life imprisonment and fine. Murder involves intentional killing with premeditation.",
+      "refs": [
+        "ipc-302"
+      ]
+    },
+    {
+      "id": "qa-ipc-assault-woman",
+      "domain": "IPC",
+      "q": "Someone touched me inappropriately. What action can I take?",
+      "a": "You can file a complaint under IPC Section 354 for assault on woman with intent to outrage modesty. The offender faces imprisonment up to 2 years and fine.",
+      "refs": [
+        "ipc-354"
+      ]
+    },
+    {
+      "id": "qa-ipc-hurt",
+      "domain": "IPC",
+      "q": "My neighbor beat me up. What legal remedy do I have?",
+      "a": "File a complaint under IPC Section 323 for voluntarily causing hurt. The offender can be imprisoned for up to 1 year or fined up to â‚¹1,000, or both.",
+      "refs": [
+        "ipc-323"
+      ]
+    },
+    {
+      "id": "qa-ipc-breach-trust",
+      "domain": "IPC",
+      "q": "My business partner misused company funds. What can I do?",
+      "a": "You can file a complaint under IPC Section 406 for criminal breach of trust. This covers dishonest misappropriation of property entrusted to someone. Punishment includes imprisonment up to 3 years and fine.",
+      "refs": [
+        "ipc-406"
+      ]
+    },
+    {
+      "id": "qa-dv-1",
+      "domain": "DOMESTIC_VIOLENCE",
+      "q": "My husband physically abuses me. What protection can I get?",
+      "a": "Under the Protection of Women from Domestic Violence Act 2005, you can file a complaint and obtain protection orders, residence orders, monetary relief, and custody orders. Domestic violence includes physical, sexual, verbal, emotional, and economic abuse.",
+      "refs": [
+        "dv-act-2005"
+      ]
+    },
+    {
+      "id": "qa-dv-2",
+      "domain": "DOMESTIC_VIOLENCE",
+      "q": "Can I stay in my husband's house after filing domestic violence case?",
+      "a": "Yes, the PWDV Act gives you the right to reside in the shared household regardless of ownership. You can obtain a residence order from the Magistrate restraining your husband from evicting you.",
+      "refs": [
+        "dv-act-2005"
+      ]
+    },
+    {
+      "id": "qa-dv-breach",
+      "domain": "DOMESTIC_VIOLENCE",
+      "q": "My husband violated the protection order. What happens now?",
+      "a": "Breach of protection order under PWDV Act Section 31 is punishable with imprisonment up to 1 year or fine up to â‚¹20,000, or both.",
+      "refs": [
+        "dv-section-31"
+      ]
+    },
+    {
+      "id": "qa-dowry-demand",
+      "domain": "DOWRY",
+      "q": "My in-laws are demanding dowry. What can I do?",
+      "a": "Under Dowry Prohibition Act Section 4, demanding dowry is a criminal offence punishable with imprisonment of 6 months to 2 years and fine up to â‚¹10,000. You can file a complaint with the police.",
+      "refs": [
+        "dowry-section-4"
+      ]
+    },
+    {
+      "id": "qa-dowry-harassment",
+      "domain": "DOWRY",
+      "q": "My wife is being harassed for dowry by her in-laws. What law protects her?",
+      "a": "She is protected under IPC Section 498A for cruelty by husband or relatives, Dowry Prohibition Act, and PWDV Act. She can file complaints under multiple laws. IPC 498A provides imprisonment up to 3 years.",
+      "refs": [
+        "ipc-498a",
+        "dowry-section-4"
+      ]
+    },
+    {
+      "id": "qa-dowry-death",
+      "domain": "DOWRY",
+      "q": "A woman died within 7 years of marriage due to dowry harassment. What law applies?",
+      "a": "IPC Section 304B applies for dowry death. If death occurs within 7 years of marriage under unnatural circumstances and she was subjected to dowry harassment, husband/relatives face imprisonment not less than 7 years, extending to life.",
+      "refs": [
+        "ipc-304b"
+      ]
+    },
+    {
+      "id": "qa-labour-wages",
+      "domain": "LABOUR",
+      "q": "My employer is not paying minimum wages. What can I do?",
+      "a": "Under Minimum Wages Act 1948, your employer must pay minimum wages fixed by the government. Non-payment attracts penalties including imprisonment up to 6 months and fines. File a complaint with the Labour Commissioner.",
+      "refs": [
+        "labour-min-wages"
+      ]
+    },
+    {
+      "id": "qa-labour-safety",
+      "domain": "LABOUR",
+      "q": "A worker died due to unsafe workplace conditions. Who is responsible?",
+      "a": "Under Factories Act Section 92 and Occupational Safety Code, if death occurs due to employer's failure to comply with safety provisions, employer faces minimum fine of â‚¹25,000 and imprisonment up to 2 years.",
+      "refs": [
+        "labour-factories"
+      ]
+    },
+    {
+      "id": "qa-labour-pf",
+      "domain": "LABOUR",
+      "q": "My employer deducted PF but didn't deposit it. What action can I take?",
+      "a": "Under Code on Social Security 2020, if employer deducts PF contributions but doesn't deposit them, it's willful default. Punishment includes imprisonment of 1-3 years and fine of â‚¹50,000 to â‚¹1 lakh.",
+      "refs": [
+        "labour-provident"
+      ]
+    },
+    {
+      "id": "qa-env-pollution",
+      "domain": "ENVIRONMENT",
+      "q": "A factory near my house is polluting the air. What can I do?",
+      "a": "Under Air (Prevention and Control of Pollution) Act 1981, industries must not emit pollutants beyond prescribed limits. File a complaint with State Pollution Control Board or approach National Green Tribunal.",
+      "refs": [
+        "env-air-1981"
+      ]
+    },
+    {
+      "id": "qa-env-water",
+      "domain": "ENVIRONMENT",
+      "q": "Someone is dumping waste in the river. Is this illegal?",
+      "a": "Yes, under Water (Prevention and Control of Pollution) Act 1974, discharge of pollutants into water bodies beyond prescribed limits is prohibited. Violations attract imprisonment and fines under Environment Protection Act.",
+      "refs": [
+        "env-water-1974",
+        "env-epa-1986"
+      ]
+    },
+    {
+      "id": "qa-ipr-trademark",
+      "domain": "IPR",
+      "q": "Someone is using a logo similar to my registered trademark. What can I do?",
+      "a": "Under Trade Marks Act 1999, using a deceptively similar trademark is infringement. You can file a civil suit for injunction and damages, and criminal complaint for imprisonment up to 3 years and fine up to â‚¹2 lakhs.",
+      "refs": [
+        "ipr-trademark"
+      ]
+    },
+    {
+      "id": "qa-ipr-copyright",
+      "domain": "IPR",
+      "q": "Someone is selling pirated copies of my book. What legal action can I take?",
+      "a": "Under Copyright Act 1957, copyright infringement is both civil and criminal offence. You can seek injunction, damages, and file criminal complaint for imprisonment of 6 months to 2 years and fine of â‚¹50,000 to â‚¹2 lakhs.",
+      "refs": [
+        "ipr-copyright"
+      ]
+    },
+    {
+      "id": "qa-ipr-patent",
+      "domain": "IPR",
+      "q": "How long does patent protection last in India?",
+      "a": "Under Patents Act 1970, patents are granted for 20 years from the date of filing. After expiry, the invention enters public domain and can be used by anyone.",
+      "refs": [
+        "ipr-patent"
+      ]
+    },
+    {
+      "id": "qa-juvenile-1",
+      "domain": "JUVENILE",
+      "q": "A 16-year-old committed a crime. Will he be tried in regular court?",
+      "a": "No, under Juvenile Justice Act 2015, children below 18 years are tried by Juvenile Justice Board, not regular criminal courts. However, heinous offences by 16-18 year olds may be tried as adults after assessment.",
+      "refs": [
+        "jj-act-2015"
+      ]
+    },
+    {
+      "id": "qa-juvenile-cruelty",
+      "domain": "JUVENILE",
+      "q": "Someone is abusing a child. What action can be taken?",
+      "a": "Under JJ Act Section 75, cruelty to child by person having actual charge is punishable with imprisonment up to 3 years or fine of â‚¹1 lakh, or both. Report to Child Welfare Committee or police immediately.",
+      "refs": [
+        "jj-section-75"
+      ]
+    },
+    {
+      "id": "qa-scst-discrimination",
+      "domain": "SC_ST",
+      "q": "I was denied entry to a temple because of my caste. What can I do?",
+      "a": "This is an atrocity under SC/ST Prevention of Atrocities Act Section 3. You can file an FIR with police. Special Courts try such cases within 60 days. Anticipatory bail is not allowed for accused.",
+      "refs": [
+        "scst-section-3"
+      ]
+    },
+    {
+      "id": "qa-scst-abuse",
+      "domain": "SC_ST",
+      "q": "Someone abused me using caste names. Is this punishable?",
+      "a": "Yes, under SC/ST Act Section 3, intentionally insulting or intimidating a SC/ST member on grounds of caste is an atrocity. Offender faces stringent punishment including imprisonment.",
+      "refs": [
+        "scst-section-3"
+      ]
+    },
+    {
+      "id": "qa-child-labour-1",
+      "domain": "CHILD_LABOUR",
+      "q": "I saw a 10-year-old working in a factory. Is this legal?",
+      "a": "No, under Child Labour Act, employing children below 14 years is prohibited. The employer faces imprisonment of 6 months to 2 years and fine of â‚¹20,000 to â‚¹50,000. Report to Labour Department immediately.",
+      "refs": [
+        "child-labour-section-3"
+      ]
+    },
+    {
+      "id": "qa-child-labour-2",
+      "domain": "CHILD_LABOUR",
+      "q": "Can a 16-year-old work in a hazardous industry?",
+      "a": "No, the Act prohibits employment of adolescents (14-18 years) in hazardous occupations. Employer faces same penalties as child employment: imprisonment 6 months to 2 years and fine â‚¹20,000 to â‚¹50,000.",
+      "refs": [
+        "child-labour-section-3"
+      ]
+    },
+    {
+      "id": "qa-cheque-bounce-1",
+      "domain": "NI_ACT",
+      "q": "The cheque given to me bounced. What should I do?",
+      "a": "Under NI Act Section 138, send a legal notice to the drawer within 30 days of receiving cheque return memo. If drawer doesn't pay within 15 days, file criminal complaint. Punishment: imprisonment up to 2 years or fine up to twice the cheque amount.",
+      "refs": [
+        "ni-section-138"
+      ]
+    },
+    {
+      "id": "qa-cheque-bounce-2",
+      "domain": "NI_ACT",
+      "q": "Can I file both criminal and civil case for cheque bounce?",
+      "a": "Yes, you can file criminal complaint under Section 138 NI Act and also file civil suit for recovery. Criminal action seeks punishment while civil action seeks repayment.",
+      "refs": [
+        "ni-section-138"
+      ]
+    },
+    {
+      "id": "qa-contract-breach",
+      "domain": "CONTRACT",
+      "q": "The other party broke our contract. Can I claim damages?",
+      "a": "Yes, under Indian Contract Act Section 73, when a contract is breached, the aggrieved party is entitled to compensation for loss or damage that naturally arose or was foreseeable at the time of contract.",
+      "refs": [
+        "contract-section-73"
+      ]
+    },
+    {
+      "id": "qa-contract-valid",
+      "domain": "CONTRACT",
+      "q": "What makes a contract valid in India?",
+      "a": "Under Section 10 of Indian Contract Act, a valid contract requires: 1) Free consent of competent parties, 2) Lawful consideration, 3) Lawful object, 4) Not expressly declared void.",
+      "refs": [
+        "contract-section-10"
+      ]
+    },
+    {
+      "id": "qa-property-sale",
+      "domain": "PROPERTY",
+      "q": "Do I need to register a property sale deed?",
+      "a": "Yes, under Transfer of Property Act Section 54, sale of immovable property valued at â‚¹100 or more must be by registered instrument. Unregistered sale deeds are not valid.",
+      "refs": [
+        "property-section-54"
+      ]
+    },
+    {
+      "id": "qa-property-transfer",
+      "domain": "PROPERTY",
+      "q": "What are the ways to transfer property in India?",
+      "a": "Under Transfer of Property Act Section 5, property can be transferred by sale, mortgage, lease, exchange, or gift. Transfer can be of movable or immovable property.",
+      "refs": [
+        "property-section-5"
+      ]
+    },
+    {
+      "id": "qa-evidence-expert",
+      "domain": "EVIDENCE",
+      "q": "Can expert opinion be used as evidence in court?",
+      "a": "Yes, under Indian Evidence Act Section 45, when court has to form opinion on specialized matters like science, art, handwriting, or foreign law, opinions of experts are relevant and admissible as evidence.",
+      "refs": [
+        "evidence-section-45"
+      ]
+    },
+    {
+      "id": "qa-evidence-electronic",
+      "domain": "EVIDENCE",
+      "q": "Are WhatsApp messages admissible as evidence?",
+      "a": "Yes, under Evidence Act Section 65B, electronic records including WhatsApp messages are admissible as evidence if proper certification is provided. This section is crucial for cyber crime cases.",
+      "refs": [
+        "evidence-section-65b"
+      ]
+    },
+    {
+      "id": "qa-crpc-41",
+      "domain": "CRPC",
+      "q": "Can police arrest me without a warrant?",
+      "a": "Yes, under certain conditions. CrPC Section 41 allows police to arrest without a warrant if the person is suspected of committing a cognizable offence or to prevent further crimes. However, the arrest must be reasonable and not arbitrary.",
+      "refs": [
+        "crpc-41"
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "id": "case-ipc-420",
+      "domain": "IPC",
+      "title": "Rajesh Kumar vs State (2008)",
+      "snippet": "Clarified that deceitful intention at the time of making a promise is essential for a conviction under IPC Section 420.",
+      "url": "https://indiankanoon.org/"
+    },
+    {
+      "id": "case-ipc-506",
+      "domain": "IPC",
+      "title": "Manik Taneja v. State of Karnataka (2015)",
+      "snippet": "Discussed online threats and intimidation under IPC 506.",
+      "url": "https://indiankanoon.org/"
+    },
+    {
+      "id": "case-it-identity",
+      "domain": "IT",
+      "title": "Shreya Singhal v. Union of India (2015)",
+      "snippet": "Landmark judgment protecting free speech online; clarified misuse of IT Act provisions including identity-based offences.",
+      "url": "https://indiankanoon.org/"
+    },
+    {
+      "id": "case-consumer-1",
+      "domain": "CONSUMER",
+      "title": "Pioneer Urban Land v. Govindan Raghavan (2019)",
+      "snippet": "Supreme Court upheld a consumer's right to refund and compensation for deficient service.",
+      "url": "https://main.sci.gov.in/"
+    },
+    {
+      "id": "case-posh-1",
+      "domain": "POSH",
+      "title": "Vishaka v. State of Rajasthan (1997)",
+      "snippet": "Laid down guidelines against sexual harassment at workplace, forming the basis for the POSH Act, 2013.",
+      "url": "https://indiankanoon.org/"
+    },
+    {
+      "id": "case-it-66a",
+      "domain": "IT",
+      "title": "Shreya Singhal v. Union of India (2015)",
+      "snippet": "Supreme Court struck down Section 66A of IT Act for being vague and violating freedom of speech. Landmark judgment for digital rights in India.",
+      "url": "https://indiankanoon.org/"
+    },
+    {
+      "id": "case-it-privacy",
+      "domain": "IT",
+      "title": "K.S. Puttaswamy v. Union of India (2017)",
+      "snippet": "Supreme Court declared Right to Privacy as a fundamental right under Article 21. Influenced data protection laws and digital rights framework in India.",
+      "url": "https://main.sci.gov.in/"
+    },
+    {
+      "id": "case-it-bazee",
+      "domain": "IT",
+      "title": "Avnish Bajaj (Bazee.com CEO) Case (2005)",
+      "snippet": "Delhi High Court clarified intermediary liability under IT Act. Paved way for safe harbor protections under Section 79 for platforms like social media.",
+      "url": "https://indiankanoon.org/"
+    },
+    {
+      "id": "case-it-suhas-katti",
+      "domain": "IT",
+      "title": "Suhas Katti Case (2004)",
+      "snippet": "First conviction under IT Act Section 67 in India. Case involved posting obscene, defamatory messages about a woman on Yahoo message group. Convicted under IPC 469, 509 and IT Act 67.",
+      "url": "https://indiankanoon.org/"
+    },
+    {
+      "id": "case-trademark-parle",
+      "domain": "IPR",
+      "title": "Parle Products v. JP & Co (1972)",
+      "snippet": "Supreme Court ruled that deceptively similar wrapper design constitutes trademark infringement. Classic case on visual similarity causing consumer confusion.",
+      "url": "https://indiankanoon.org/"
+    },
+    {
+      "id": "case-trademark-coca-cola",
+      "domain": "IPR",
+      "title": "Coca Cola Company v. Bisleri International (2017)",
+      "snippet": "Delhi High Court granted injunction to Coca Cola for exclusive rights to MAAZA trademark. Bisleri cannot use trademark in or outside India after assignment.",
+      "url": "https://indiankanoon.org/"
+    },
+    {
+      "id": "case-trademark-starbucks",
+      "domain": "IPR",
+      "title": "Starbucks Corporation v. Sardarbuksh Coffee (2019)",
+      "snippet": "Delhi High Court granted injunction ordering Sardarbuksh to modify trademark to 'Sardarji-Bakhsh' and change logo. Case on deceptively similar trademarks.",
+      "url": "https://indiankanoon.org/"
+    },
+    {
+      "id": "case-trademark-cadbury",
+      "domain": "IPR",
+      "title": "Mondelez India v. Neeraj Food Products (2016)",
+      "snippet": "Delhi High Court ruled in favor of Cadbury for JAMES BOND trademark on chocolates. Emphasized protection of well-known trademarks from dilution.",
+      "url": "https://indiankanoon.org/"
+    },
+    {
+      "id": "case-dv-implementation",
+      "domain": "DOMESTIC_VIOLENCE",
+      "title": "We The Women of India v. Union of India (2021-2025)",
+      "snippet": "Supreme Court in 2025 directed all states to appoint Protection Officers and implement PWDV Act properly. Addressed uneven implementation across India.",
+      "url": "https://main.sci.gov.in/"
+    },
+    {
+      "id": "case-dv-vkv-sarma",
+      "domain": "DOMESTIC_VIOLENCE",
+      "title": "V.K.V Sarma Case (2013)",
+      "snippet": "Supreme Court clarified that DV Act is enacted to provide civil remedy for protection of women from domestic violence, in addition to criminal remedies under IPC.",
+      "url": "https://main.sci.gov.in/"
+    },
+    {
+      "id": "case-dowry-kamlesh",
+      "domain": "DOWRY",
+      "title": "Kamlesh Panjiyar v. State of Bihar",
+      "snippet": "Supreme Court convicted appellant for demanding and receiving â‚¹40,000 as dowry, then torturing wife for additional dowry causing her death. Confirmed 10-year sentence.",
+      "url": "https://indiankanoon.org/"
+    },
+    {
+      "id": "case-labour-safety",
+      "domain": "LABOUR",
+      "title": "Various Labour Code Cases (2020-2025)",
+      "snippet": "New Labour Codes 2020 increased penalties: Factories Act violations now carry minimum â‚¹5 lakh fine and 2 years imprisonment, up from â‚¹1 lakh and 2 months under old law.",
+      "url": "https://labour.gov.in/"
+    },
+    {
+      "id": "case-cheque-suman-sethi",
+      "domain": "NI_ACT",
+      "title": "Suman Sethi v. Ajay K. Churiwal (2000)",
+      "snippet": "Supreme Court clarified that notice under Section 138 is omnibus in nature. If notice specifies cheque amount separately from interest/damages, and these are severable, the notice remains valid.",
+      "url": "https://indiankanoon.org/"
+    },
+    {
+      "id": "case-cheque-ni-138",
+      "domain": "NI_ACT",
+      "title": "Various Section 138 NI Act Judgments",
+      "snippet": "Courts have consistently held that cheque bounce notice must state exact cheque amount. Any error invalidates the notice. Both drawer and company directors can be held liable.",
+      "url": "https://indiankanoon.org/"
+    },
+    {
+      "id": "case-contract-breach",
+      "domain": "CONTRACT",
+      "title": "Various Breach of Contract Cases",
+      "snippet": "Indian courts consistently apply Section 73 to award compensation for loss that naturally arose from breach or was foreseeable. Damages must be proved, not speculative.",
+      "url": "https://indiankanoon.org/"
+    },
+    {
+      "id": "case-women-safety-2025",
+      "domain": "POSH",
+      "title": "Supreme Court Women Lawyers Association Case (2025)",
+      "snippet": "Supreme Court in April 2025 expressed concern over women's safety, directing Centre to file comprehensive affidavit on existing measures and proposed steps. Called for mindset change.",
+      "url": "https://main.sci.gov.in/"
+    },
+    {
+      "id": "case-women-rg-kar",
+      "domain": "POSH",
+      "title": "RG Kar Medical College Case (2024)",
+      "snippet": "Kolkata trainee doctor rape-murder case led to nationwide protests and strengthened safety measures. Bharatiya Nyaya Sanhita 2023 introduced death penalty for rape of girls below 18.",
+      "url": "https://main.sci.gov.in/"
+    },
+    {
+      "id": "case-scst-2021",
+      "domain": "SC_ST",
+      "title": "SC Bench Judgment on SC/ST Act (2021)",
+      "snippet": "Supreme Court held that SC/ST Act recognizes depressing reality that SCs/STs continue to face atrocities despite measures. Act enacted keeping in view Articles 15, 17, 21 with twin objective of protection and rehabilitation.",
+      "url": "https://main.sci.gov.in/"
+    },
+    {
+      "id": "case-property-transfer",
+      "domain": "PROPERTY",
+      "title": "Various Transfer of Property Cases",
+      "snippet": "Courts consistently hold that sale of immovable property above â‚¹100 must be by registered instrument. Unregistered documents cannot transfer title. Possession must accompany transfer.",
+      "url": "https://indiankanoon.org/"
+    },
+    {
+      "id": "case-evidence-65b",
+      "domain": "EVIDENCE",
+      "title": "Section 65B Electronic Evidence Cases",
+      "snippet": "Courts have clarified that electronic records like emails, WhatsApp messages, CCTV footage are admissible only with proper certificate under Section 65B. Critical for cyber crime prosecution.",
+      "url": "https://indiankanoon.org/"
+    },
+    {
+      "id": "case-environment-ngt",
+      "domain": "ENVIRONMENT",
+      "title": "Various National Green Tribunal Cases",
+      "snippet": "NGT established under National Green Tribunal Act 2010 has delivered numerous judgments on air pollution, water pollution, forest clearance, and environmental protection. Applies polluter pays principle.",
+      "url": "https://greentribunal.gov.in/"
+    },
+    {
+      "id": "case-crpc-arrest1",
+      "domain": "CRPC",
+      "title": "Arnesh Kumar v. State of Bihar (2014)",
+      "snippet": "Supreme Court held that police cannot arrest automatically for offences punishable up to 7 years. Reasons for arrest must be recorded to prevent misuse of power.",
+      "url": "https://indiankanoon.org/"
+    },
+    {
+      "id": "case-crpc-arrest2",
+      "domain": "CRPC",
+      "title": "Joginder Kumar v. State of UP (1994)",
+      "snippet": "Court emphasized that arrest must not be routine. Police must justify necessity for arrest based on credible reasons.",
+      "url": "https://indiankanoon.org/"
+    }
+  ]
+}

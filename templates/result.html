@@ -77,7 +77,12 @@
                     <strong>{{ c.case }}</strong>
                     <small class="text-muted">{{ c.snippet }}</small>
                     <span class="badge bg-secondary mt-1"
-                      >Similarity: {{ '%.2f'|format(c.similarity) }}</span
+                      >
+<!--                      Similarity: {{ '%.2f'|format(c.similarity) }}</span-->
+                      {% if c.similarity is defined %}
+  <span class="badge bg-secondary mt-1">Similarity: {{ '%.2f'|format(c.similarity) }}</span>
+{% endif %}
+
                     >
                   </li>
                   {% endfor %}

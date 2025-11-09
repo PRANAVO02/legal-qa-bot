@@ -5,8 +5,10 @@ from retrieval import (
     detect_domain,
     find_relevant_sections,
     answer_question_over_text,
-    recommend_cases
+    recommend_cases,
+    find_sections_by_hint,
 )
+from difflib import SequenceMatcher  # For fuzzy QA matching
 
 app = Flask(__name__)
 
@@ -31,6 +33,22 @@ def ensure_data_loaded():
         dataset = load_dataset("data/legal_dataset.json")
 
 
+# ---------------- Helper: QA Precheck Layer ----------------
+def find_similar_qa(question, qa_pairs, threshold=0.75):
+    """Return pre-answered QA if user query closely matches known questions."""
+    question = question.lower()
+    best_match = None
+    best_score = 0.0
+    for qa in qa_pairs:
+        score = SequenceMatcher(None, question, qa["q"].lower()).ratio()
+        if score > best_score:
+            best_score = score
+            best_match = qa
+    if best_score >= threshold:
+        return best_match
+    return None
+
+
 # ---------------- Main Page ----------------
 @app.route("/", methods=["GET"])
 def index():
@@ -47,19 +65,37 @@ def ask():
     ensure_models_loaded()
     ensure_data_loaded()
 
+    # ---------- Step 0: Fast QA Precheck ----------
+    matched_qa = find_similar_qa(question, dataset["qaPairs"])
+    if matched_qa:
+        refs = matched_qa.get("refs", [])
+        statutes = [s for s in dataset["statutes"] if s["id"] in refs]
+        main_section = statutes[0] if statutes else {"title": "N/A", "section": "N/A", "summary": ""}
+        structured_answer = {
+            "law": f"{main_section['title']} ({main_section['section']})",
+            "description": matched_qa["a"],
+            "punishment": "As per this law, punishment depends on the specific offence.",
+            "domain": matched_qa["domain"],
+            "confidence": 1.0
+        }
+        related_cases = [c for c in dataset["cases"] if c["domain"] == matched_qa["domain"]]
+        return render_template("result.html", question=question, answer_structured=structured_answer, related_cases=related_cases)
+
     # ---------- Step 1: Domain Detection ----------
     domain_key = detect_domain(question, dataset["keywords"])
     domain_statutes = [s for s in dataset["statutes"] if s["domain"] == domain_key]
     domain_cases = [c for c in dataset["cases"] if c["domain"] == domain_key]
 
-    # ✅ Fallbacks for robustness
     if not domain_statutes:
         domain_statutes = dataset["statutes"]
     if not domain_cases:
         domain_cases = dataset["cases"]
 
-    # ---------- Step 2: Semantic Section Retrieval ----------
-    relevant_sections = find_relevant_sections(question, domain_statutes, sentence_model, top_k=2)
+    # ---------- Step 2: Prefer explicit section hints (e.g., 'IPC 420') ----------
+    relevant_sections = find_sections_by_hint(question, domain_statutes)
+    if not relevant_sections:
+        # Fallback to semantic retrieval
+        relevant_sections = find_relevant_sections(question, domain_statutes, sentence_model, top_k=2)
     if not relevant_sections:
         return render_template(
             "result.html",
@@ -81,7 +117,7 @@ def ask():
         if score > best_score:
             best_answer, best_score, best_section = answer, score, section
 
-    # ---------- Step 4: Structured Answer Formatting ----------
+    # ---------- Step 4: Structured Answer ----------
     if len(best_answer.strip()) < 15 or "No direct" in best_answer:
         structured_answer = {
             "law": f"{best_section['title']} ({best_section['section']})",
@@ -99,10 +135,10 @@ def ask():
             "confidence": round(best_score, 2)
         }
 
-    # ---------- Step 5: Related Case Recommendations ----------
+    # ---------- Step 5: Related Cases ----------
     related_cases = recommend_cases(question, domain_cases, sentence_model)
 
-    # ---------- Step 6: Render Structured Output ----------
+    # ---------- Step 6: Render ----------
     return render_template(
         "result.html",
         question=question,

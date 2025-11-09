@@ -35,6 +35,12 @@ legal-qa-bot/
 ## Run
 ```bash
 python app.py
+
+```
+or
+```bash
+ $env:TRANSFORMERS_NO_TF='1'; $env:USE_TF='0'; $env:USE_TORCH='1'; $env:TRANSFORMERS_NO_TORCHVISION='1'; .\.venv\Scripts\python.exe app.py
+
 ```
 Open http://127.0.0.1:5000 in your browser.
 
