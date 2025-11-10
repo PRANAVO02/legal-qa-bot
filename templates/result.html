@@ -71,20 +71,20 @@
                 {% if related_cases and related_cases|length > 0 %}
                 <ul class="list-group list-group-flush mt-3">
                   {% for c in related_cases %}
-                  <li
-                    class="list-group-item d-flex flex-column"
-                  >
-                    <strong>{{ c.case }}</strong>
-                    <small class="text-muted">{{ c.snippet }}</small>
-                    <span class="badge bg-secondary mt-1"
-                      >
-<!--                      Similarity: {{ '%.2f'|format(c.similarity) }}</span-->
-                      {% if c.similarity is defined %}
-  <span class="badge bg-secondary mt-1">Similarity: {{ '%.2f'|format(c.similarity) }}</span>
-{% endif %}
+                  <li class="list-group-item d-flex flex-column">
+  <strong>{{ c.case }}</strong>
+  <small class="text-muted">{{ c.snippet }}</small>
+  {% if c.similarity is defined %}
+    <span class="badge bg-secondary mt-1">
+      Similarity: {{ '%.2f'|format(c.similarity) }}
+    </span>
+  {% else %}
+    <span class="badge bg-secondary mt-1">
+      Similarity: N/A
+    </span>
+  {% endif %}
+</li>
 
-                    >
-                  </li>
                   {% endfor %}
                 </ul>
                 {% else %}
