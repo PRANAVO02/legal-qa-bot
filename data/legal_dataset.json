@@ -723,7 +723,7 @@
       "id": "qa-motor-1",
       "domain": "MOTOR",
       "q": "What is the punishment for drunk driving in India?",
-      "a": "Motor Vehicles Act Section 185 prescribes imprisonment up to six months or a fine up to â‚¹10,000 for drunk driving.",
+      "a": "Motor Vehicles Act Section 185 prescribes imprisonment up to six months or a fine up to â‚10,000 for drunk driving.",
       "refs": ["mva-185"]
     },
     {
